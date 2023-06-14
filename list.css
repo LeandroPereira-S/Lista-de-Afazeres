@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(6, 158, 158);
+}
+
+h1 {
+    background-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+
+}
+
+.remove-button {
+    background-color: rgb(197, 7, 7);
+}
+
+#task-input {
+    flex: 0;
+    font-size: 16px;
+    display: inline-flex;
+    
+}
+
+#task-container {
+    background-color: #4566a2;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#task-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 4px rgba(5, 0, 0, 0.1);
+    display: block;
+    width: fit-content
+}
